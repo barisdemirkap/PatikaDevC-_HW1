@@ -56,31 +56,31 @@ namespace Homework1
     //    Console.ReadLine() ;
     //    }
     //}
-    class Question3
-    {
-        static void Main(string[] args)
-        {       
-                Console.WriteLine("Pozitif bir sayi girin") ;
-                int n = int.Parse(Console.ReadLine()) ;
-                List<string> users = new List<string>() ;
-                Console.WriteLine("kullanici isimlerini girin") ;
-                for(int i = 0; i<n ; i++)
-                {   
-                    users.Add(Convert.ToString(Console.ReadLine())) ; 
-                }
-                
-                users.Reverse();
-                Console.WriteLine(String.Join(',', users)) ;
-               // for(int i = 0; i<n ; i++)
-                //{   
-                //   Console.WriteLine(users[i]) ;
-                //   
-                //}
-                Console.ReadLine() ;
-
-
-    }
-    }
+   // class Question3
+   // {
+   //     static void Main(string[] args)
+   //     {       
+   //             Console.WriteLine("Pozitif bir sayi girin") ;
+   //             int n = int.Parse(Console.ReadLine()) ;
+   //             List<string> users = new List<string>() ;
+   //             Console.WriteLine("kullanici isimlerini girin") ;
+   //             for(int i = 0; i<n ; i++)
+   //             {   
+   //                 users.Add(Convert.ToString(Console.ReadLine())) ; 
+   //             }
+   //             
+   //             users.Reverse();
+   //             
+   //            for(int i = 0; i<n ; i++)
+   //             {   
+   //                Console.WriteLine(users[i]) ;
+   //                
+   //             }
+   //             Console.ReadLine() ;
+   //
+   //
+   // }
+   // }
 }
 
     
