@@ -81,6 +81,35 @@ namespace Homework1
    //
    // }
    // }
+   class Question4
+        {
+            static void Main(string[]args)
+            {
+                Console.WriteLine("Bir cumle yazin") ;
+                string sentence = Convert.ToString(Console.ReadLine()) ;
+                int count = 0;
+                for(int i= 0 ; i<sentence.Length ; i++) 
+                {
+                    if (sentence[i]!=' ')
+                    {   if ((i+1)==sentence.Length)
+                            {
+                                count++ ;
+                            }
+                        else
+                        {
+                            if(sentence[i+1]==' ')
+                            {
+                                 count++;
+                            }
+                        }
+
+                    }
+                }
+
+
+            
+            }
+        }
 }
 
     
