@@ -31,8 +31,9 @@ namespace Homework1
     class Question2
     {
         static void Main(string[] args)
-        {   Console.WriteLine("Pozitif iki sayi girin") ;
+        {   Console.WriteLine("Pozitif birinci sayi girin") ;
             int n = int.Parse(Console.ReadLine()) ;
+            Console.WriteLine("Pozitif ikinci sayi girin") ;
             int m = int.Parse(Console.ReadLine()) ;
             List<int> numbers = new List<int>() ;
 
